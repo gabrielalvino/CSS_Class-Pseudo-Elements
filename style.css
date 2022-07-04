@@ -1,0 +1,36 @@
+h1::first-letter {
+  color: blue;
+  font-size:5rem;
+
+}
+
+p::first-line {
+  color:red;
+}
+
+p::selection {
+  background-color:yellow;
+}
+
+li{
+  list-style-type: none;
+}
+
+#l2:before {
+  content: " ";
+  display:inline-block;
+  background-image: url(./assets/Firefox_logo\,_2017.svg.png);
+  width: 20px;
+  height: 20px;
+  background-size: cover;
+
+}
+
+#l3:after {
+  content: " ";
+  display:inline-block;
+  background-image: url(./assets/Firefox_logo\,_2017.svg.png);
+  width: 20px;
+  height: 20px;
+  background-size: cover;
+}
